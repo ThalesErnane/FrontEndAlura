@@ -1,82 +1,51 @@
-
-
 body {
-    font-family: "Crimson Text", "Times New Roman", serif;
-    background-color: #F2FFFC;
-    font-size: 120%;
-    line-height: 1.5;
-}
-
-
-h2 {
-    font-size: 40px;
-    clear: both;
-    font-family: "Open Sans Condensed", sans-serif;
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
 }
 
 h1, h2 {
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 .titulo-principal {
-    text-align: center;
-    background-color: #851944;
-    color: #FFF;
-    padding: 25px;
-    margin: 0;
-    line-height: 1.5;
-    border-bottom: 10px solid black;
-    font-size: 60px;
-    text-transform: uppercase;   
-    
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
-    text-align: justify;
-    padding: 20px 0;
+	text-align: justify;
+	margin: 20px 0;
 }
 
 .citacao-bio {
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    padding: 16px;
-    width: 250px;
-    margin: 0;
-    box-sizing: border-box;
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
 }
 
-.fiat {
-    float: right;
-    margin-left: 20px;
-}
-
-.petrobras {
-    float: left;
-    margin-right: 20px;
-}
-
-strong {
-    font-weight: 600;
-}
-
-em {
-    font-style: italic;
-}
-
-.navegacao-site  {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    text-align: center;
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
 }
 
 .rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;   
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
 }
 
 main a {
-    color: #851944;
-    
+	color: #851944;
 }
 
 .navegacao-site a {
@@ -88,11 +57,19 @@ main a {
     padding: 20px;
 }
 
-.texto {
+.container {
 	width: 720px;
 	margin: auto;
 	padding: 30px 0;
+
 }
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
 
 .navegacao-site h1 {
 	font-size: 30px;
@@ -109,6 +86,7 @@ em {
 
 .subtitulo-texto {
 	font-size: 30px;
+	clear: both;
 }
 
 .icones-redes-sociais li {
@@ -133,7 +111,6 @@ em {
 nav a {
     text-transform: lowercase;
     text-decoration: none;
-    
 }
 
 .icones-redes-sociais a {
@@ -153,4 +130,49 @@ nav a {
 
 .linkedin {
 	background-image: url(linkedin.png);
+}
+
+.fiat {
+	float: right;
+	margin-left: 40px;
+}
+
+.petrobras {
+	float: left;
+	margin-right: 40px;
+}
+
+aside {
+    position: relative;
+    top: 300px;
+}
+
+
+
+.minha-foto, .navegacao-site {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+.minha-foto {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
